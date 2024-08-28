@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.scss";
 import Sidebar from "./componentes/Sidebar";
 import BarraDePesquisa from "./componentes/BarraDePesquisa";
+import Filtro from "./componentes/Filtro";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -9,7 +10,10 @@ function App() {
     return (
         <div className="container">
             <Sidebar />
-            <BarraDePesquisa />
+            <div>
+                <BarraDePesquisa />
+                <Filtro />
+            </div>
         </div>
     );
 }

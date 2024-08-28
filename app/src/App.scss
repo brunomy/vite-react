@@ -3,4 +3,8 @@
     width: 62vw;
     margin: 3.5em auto;
     gap: 16px;
+
+    div{
+        flex-grow: 2;
+    }
 }
