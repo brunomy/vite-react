@@ -3,8 +3,11 @@ import "./App.scss";
 import Sidebar from "./componentes/Sidebar";
 import BarraDePesquisa from "./componentes/BarraDePesquisa";
 import Filtro from "./componentes/Filtro";
+import Card from "./componentes/Card";
 
 function App() {
+    
+
     const [count, setCount] = useState(0);
 
     return (
@@ -13,6 +16,8 @@ function App() {
             <div>
                 <BarraDePesquisa />
                 <Filtro />
+
+                <Card />
             </div>
         </div>
     );
