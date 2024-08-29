@@ -7,11 +7,11 @@
     display: grid;
 
 
-    .card__imagem {
+    .card__image {
         width: 100%;
         height: 240px;
         background-color: var(--cinza-claro);
-        border-radius: 8px;
+        border-radius: 8px 8px 0 0;
         display: flex;
         justify-content: center;
         align-items: center;
